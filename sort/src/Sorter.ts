@@ -1,7 +1,7 @@
 import { NumbersCollection } from './NumbersCollection';
 
 export class Sorter {
-    constructor(public collection: NumberCollection) {
+    constructor(public collection: NumbersCollection) {
 
     }
 
