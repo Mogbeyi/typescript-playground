@@ -59,7 +59,7 @@ var LinkedList = /** @class */ (function () {
         if (!this.head) {
             throw new Error("List is empty");
         }
-        return this.at(leftIndex) > this.at(rightIndex);
+        return this.at(leftIndex).data > this.at(rightIndex).data;
     };
     LinkedList.prototype.swap = function (leftIndex, rightIndex) {
         var leftNode = this.at(leftIndex);

@@ -13,10 +13,10 @@ import { CharactersCollection } from './CharactersCollection';
 // sorter.sort()
 
 const linkedList = new LinkedList();
-linkedList.add(500);
+linkedList.add(400);
 linkedList.add(-10);
 linkedList.add(-3);
-linkedList.add(4);
+linkedList.add(9000);
 linkedList.add(100);
 
 const sorter = new Sorter(linkedList);

@@ -60,7 +60,7 @@ export class LinkedList {
         if (!this.head) {
             throw new Error("List is empty");
         }
-         return this.at(leftIndex) > this.at(rightIndex);
+         return this.at(leftIndex).data > this.at(rightIndex).data;
     }
 
     swap(leftIndex: number, rightIndex: number): void {
